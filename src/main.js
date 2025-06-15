@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 //从vue中引出createApp创建vue实例
 import { createApp } from 'vue'
 import App from './App.vue'
@@ -21,3 +22,10 @@ app.config.globalProperties.$api = api
 app.use(store)
 app.use(router)
 app.mount('#app')
+=======
+import { createApp } from 'vue'
+import './style.css'
+import App from './App.vue'
+
+createApp(App).mount('#app')
+>>>>>>> f36fe97cb5d79a56627d9d465ad14d035c2d82b2

@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+<<<<<<< HEAD
 import AutoImport from 'unplugin-auto-import/vite'
 import Components from 'unplugin-vue-components/vite'
 import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
@@ -27,4 +28,10 @@ export default defineConfig({
   optimizeDeps: {
     include: ['mockjs'] // 明确包含 Mock.js
   },
+=======
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [vue()],
+>>>>>>> f36fe97cb5d79a56627d9d465ad14d035c2d82b2
 })

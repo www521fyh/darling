@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Vite不支持require语法，替换所有 require() 为 import
 
 #mock.js
@@ -64,3 +65,10 @@ order 的来源
 #增加页面顺序
 1.路由文件router/index.js中增加组件
 2.在菜单api/mockdata/permission.js中增加组件
+=======
+# Vue 3 + Vite
+
+This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+
+Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+>>>>>>> f36fe97cb5d79a56627d9d465ad14d035c2d82b2
